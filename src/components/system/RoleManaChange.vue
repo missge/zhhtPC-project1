@@ -199,7 +199,7 @@
 					let obj={}, children = '';;
 					obj.label = item.name;
 					obj.id = item.id;
-
+        //树形菜单遍历  调用element tree组件
 					if(item.fatherModuleDTOs){
 						children = item.fatherModuleDTOs;
 					}else if(item.childModuleDTOs){
